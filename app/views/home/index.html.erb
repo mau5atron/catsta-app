@@ -2,5 +2,5 @@
 <div>cat pics go here</div>
 
 <% @cats.each do |cats| %>
-	<div><%= cats["url"]  %></div>
+	<div><%= image_tag cats["url"], size: 200 %></div>
 <% end %>
